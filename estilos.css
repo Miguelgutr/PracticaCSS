@@ -1,0 +1,285 @@
+body{
+    font-family:  sans-serif;
+}
+.encabezado{
+    padding: 20px;
+}
+.titulo{
+    color: blue;
+    display: inline;
+    font-weight: bold;
+    padding-left: 100px;
+    font-size: 22px;
+}
+.menu {
+    color: gray;
+    display: inline;
+    float: right;
+    font-weight: bold;
+    font-size: medium;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu:hover{
+    background-color: #2666CF;
+    padding: 10px 50px 10px 10px;
+    border-radius: 8%;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+.uno{
+    display: inline-block;
+    text-align: left;
+    margin: 20px 100px 50px 100px;
+    position: relative;
+}
+.imguno{
+    padding-left: 55px ;
+    width: 550px;
+    height: 680px;
+    position: absolute;
+}
+.grande{
+    font-size: 60px;
+    color:midnightblue;
+    font-weight: bold;
+    }
+.mediano{
+        font-size: 45px;
+        color:midnightblue;
+        font-weight: bold;
+        }
+.descripcion{
+    color: gray;
+    text-align: left;
+    font-size: 21px;
+}
+.colum{
+    display: inline;
+    padding-left: 00px;
+    padding-right: 40px;
+    color: midnightblue;
+}
+.icono{
+    padding: 0;
+}
+.calendario{
+    display: inline;
+    padding-left: 35px;
+}
+.formFecha{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    display: flex;   
+    color: gray; 
+    box-shadow: 2px 2px rgb(206, 206, 206);
+    border: 1px solid;
+    font-weight: bold;
+}
+.btn{
+    color: white;
+    background-color: midnightblue;
+    padding: 18px 30px;
+    margin-left: 25px;
+    border-radius: 8%;
+    margin-right: 5px;
+}
+.etiquetas{
+    flex-direction: row;
+    display: flex;
+    margin: 0px 80px 50px 100px;
+}
+.etiq:hover{
+    border: 1px solid rgb(245, 245, 245);
+    font-weight: bold;
+    flex: 1 1 auto;
+    padding-left: 20px;
+    margin: 0 25px 0 0;
+    box-shadow: 2px 2px midnightblue;
+}
+
+.etiq{
+    border: 1px solid rgb(245, 245, 245);
+    font-weight: bold;
+    flex: 1 1 auto;
+    padding-left: 20px;
+    margin: 0 25px 0 0;
+    box-shadow: 2px 2px rgb(226, 226, 226);
+}
+.txtEt{
+    color: midnightblue;
+}
+.desc{
+    color: gray;
+    text-align: left;
+    font-size: 12px;
+    height: 150px;
+}
+.opciones{
+    border: none;
+    color: gray;
+    font-size: 8px;
+}
+.tercera{
+    display: flex;
+    text-align: center;
+    margin: 20px 100px 50px 100px;
+    position: relative;
+    vertical-align: text-top;
+}
+.chico{
+    font-size: 35px;
+    color:midnightblue;
+    font-weight: bold;
+    padding-left: 25px;
+    }
+.subtxt{
+    font-size:20 ;
+    color: gray;
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    }
+.txtDesplegable{
+    text-align: left;
+    padding-left: 65px;
+    font-weight: bold;
+    width: 350px;
+    height: 30px;
+    color: midnightblue;
+    }
+.txtDesplegable:hover{
+    font-weight: bold;
+    color: black;
+    background-color: #d6e6ff;
+    border-radius: 35%;
+    
+    }
+.der{
+    padding-right: -50px;
+    }
+.der:hover{
+    padding-right: -50px;
+    width: 25px;
+    }
+.izq{
+    padding-right: 15px;
+    width: 15px;
+    }
+.desplega{
+    text-align: left;
+    padding-left: 100px;
+    font-size: 12px;
+    color: gray;
+    }  
+.imgder{
+    padding-left: 75px ;
+    width: 550px;
+    height: 700px;
+    position: relative;
+    }
+.etique{
+    flex-direction: row;
+    display: inline-block;
+    padding: 50px 55px 50px 55px ;
+   
+    }
+.cuatro{
+    display: inline-block;
+    text-align: left;
+    margin: 50px 10px 50px 100px;
+    padding: 0px 10px 0px 0px;
+    align-content: center;
+    }
+.btns{
+        color: white;
+        background-color: rgb(71, 82, 184);
+        padding: 18px 20px;
+        margin-left: 25px;
+        border-radius: 8%;
+        margin-right: 5px;
+    }
+h3{
+        color: midnightblue;
+        font-weight: bolder;
+    }
+.boton{
+    padding: 15px 18px;
+    background-color: rgb(239, 237, 248);
+    text-align: center;
+    color: midnightblue;
+    font-weight: bold;
+    border-radius: 10%;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+.boton:hover{
+        background-color: #2666CF;
+        padding: 15px 18px;
+        margin-left: 25px;
+        border-radius: 8%;
+        margin-right: 5px;
+        color: white;
+}
+.numerito{
+    font-size: 10px;
+    text-align: center;
+    color: gray;
+    padding-left: 38px;
+}
+footer{
+    flex-direction: row;
+    display: flex;
+    margin: 0px 0px 0px 100px;
+    background-color: rgb(221, 225, 238);
+    border:1 solid rgb(221, 225, 238) ;
+}
+.titulo2{
+    color: midnightblue;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+.txt{
+    color: gray;
+    text-align: left;
+    font-size: 12px;
+    
+}
+.etiq2{
+    color: blue;
+    font-weight: bold;
+    font-size: 22px;
+    padding-right: 500px;
+    padding-left: 25px;
+}
+.ult{
+    text-align: right;
+    background-color:rgb(221, 225, 238) ;
+    padding: 0 0 0 0 ;
+    margin: 0px 0px 0px 20px;
+    font-size: 12px;
+    color: gray;
+}
+.ult1{
+    text-align: right;
+    background-color:rgb(221, 225, 238) ;
+    padding-right: 700px;
+    margin: 0px 0px 0px 20px;
+    font-size: 12px;
+    color: gray;
+}
+.fin{
+    flex-direction: row;
+    display: flex;
+    margin: 0px 0px 0px 100px;
+    background-color: rgb(221, 225, 238);
+    border:1 solid rgb(221, 225, 238) ;
+}

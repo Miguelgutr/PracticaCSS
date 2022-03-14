@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS práctica</title>
+    
+    <link rel="stylesheet" href="./estilos.css">
+    <script type="text/javascript">
+        
+        function alcohol(){
+           var caja2 = document.getElementById("alcohol");
+            if (caja2.style.display == "none"){
+                document.getElementById("alcohol").style.display="block";            }
+            else{
+                document.getElementById("alcohol").style.display="none";
+            }
+        }
+        function stress(){
+           var caja1 = document.getElementById("stress");
+            if (caja1.style.display == "none"){
+                document.getElementById("stress").style.display="block";            }
+            else{
+                document.getElementById("stress").style.display="none";
+            }
+        }
+        function food(){
+           var caja3 = document.getElementById("food");
+            if (caja3.style.display == "none"){
+                document.getElementById("food").style.display="block";            }
+            else{
+                document.getElementById("food").style.display="none";
+            }
+        }
+        function sleep(){
+           var caja4 = document.getElementById("sleep");
+            if (caja4.style.display == "none"){
+                document.getElementById("sleep").style.display="block";            }
+            else{
+                document.getElementById("sleep").style.display="none";
+            }
+        }
+        function excer(){
+           var caja4 = document.getElementById("excer");
+            if (caja4.style.display == "none"){
+                document.getElementById("excer").style.display="block";            }
+            else{
+                document.getElementById("excer").style.display="none";
+            }
+        }
+    </script>
+</head>
+<body>
+    
+    <div>
+        <!-- menú y emcabezado-->
+        <ul class="encabezado">
+            <li class= "titulo"> Vaccination</li>
+            <li class="menu"><a href="">Hoax Buster</a></li>
+            <li class="menu">Regulation</li>
+            <li class="menu">News</li>
+            <li class="menu">Education</li>
+            <li class="menu">Database</li>
+        </ul>
+    </div>
+    <!-- uno -->
+    <div class="uno">
+        <p class="grande">
+            Fight Virus <br>
+            With Vaccines
+        </p>
+        
+        <p class="descripcion">Let's stop pandemic by killing the virus <br>
+            with a vaccine, don't let yourself and your <br>
+            family get infected
+        </p><br>
+            <ul>
+                <img class="icono" src="https://static.vecteezy.com/system/resources/previews/000/552/181/original/shield-crest-vector-icon.jpg" alt="escudo" width="10px">
+                <li class="colum">Best protection</li>
+                <img src="https://vignette.wikia.nocookie.net/llsif/images/5/54/Estrella_Amarilla.png/revision/latest?cb=20151102000848&path-prefix=es" alt="estrella" width="10px">
+                <li class="colum">Selected Vaccines</li>
+            </ul>
+            <br><br><br><br>
+        <p class="colum">
+            <img src="https://images.vexels.com/media/users/3/203011/isolated/preview/06801a48988337547b6072291f2320dc-icono-de-reloj-anal-oacute-gico-azul-by-vexels.png" alt="reloj" width="15px">
+            Schedule your vaccinations
+        </p>
+        <div class="formFecha">
+            <p class="calendario"><img src="https://www.seekpng.com/png/detail/347-3471244_punto-de-ubicacion-png-direction-sign-icon-png.png" alt="lugar" width="15px"> Location: </p>
+            <select name="location" id="location" class="opciones">
+                <option value="cdmx">Álvaro Obregón</option>
+                <option value="guadalajara">Benito Juárez</option>
+            </select>
+            <p class="calendario"><img src="https://tse3.mm.bing.net/th?id=OIP.AFmFGr1HuLSKih6wuESMLgHaHa&pid=Api" alt="fecha" width="15px"> Date</p>
+            <p class="calendario"><img src="https://tse3.mm.bing.net/th?id=OIP.5HYaEeuV5VvmYNA-G_7hGgAAAA&pid=Api" alt="tipo" width="15px"> Vaccine type</p>
+            <button class="btn">Submit</button>
+        </div>
+         </div>
+         <img class="imguno" src="./img/enfermera.png" alt="enfermera" width="300px">
+   
+    <img src="./img/Marcas.png" alt="marcas">
+    <div class="uno" >
+        <p class="mediano">
+            Why should i vaccine?
+        </p>
+        <p class="descripcion">
+            In order to avoid any doubts about getting the COVID-19 <br>
+            vaccine, identify the following 4 benefits of COVID-19 <br>
+            vaccination:
+        </p>
+    </div>
+        <!--Comienzan etiquetas-->
+        <div class="etiquetas">
+            <section class="etiq">
+                <p class="txtEt">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.kTG2rYQeiaSL2sSn5O2zDAHaFL&pid=Api" alt="ajustes" width="50px"><br>
+                    Minimize the <br>
+                    spread of viruses
+                </p>
+                
+                <p class="desc">
+                    Vaccine has been proven <br>
+                    effective to prevent someone <br>
+                    from getting infected with <br>
+                    Coronavirus
+                </p>
+            </section>
+            <section class="etiq">
+                <p class="txtEt">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.e7LhjAxCLi_L19R6a48eqgHaHa&pid=Api" alt="escudo" width="50px"><br>
+                    Forming <br>
+                    antibodies
+                </p>
+                <p class="desc">
+                    COVID-19 vaccine proven to <br>
+                    help shape antobody <br>
+                    response for immune system
+                </p>
+            </section>
+        <section  class="etiq">
+            <p class="txtEt">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.q87Tu4bW6VjO_0vFm1qO_gHaHa&pid=Api" alt="people" width="50px"> <br>
+                Protecting <br>
+                people nearby
+            </p>
+            <p class="desc">
+                The benefits of COVID-19 <br>
+                vaccination are the vaccine <br>
+                that we get can also help <br>
+                protect people around us
+            </p>
+        </section>
+        <section  class="etiq">
+            <p class="txtEt">
+            <img src="https://st2.depositphotos.com/1688079/5662/i/950/depositphotos_56626973-stock-photo-statistics-icon-blue-button.jpg" alt="inmunidad" width="50px"><br>
+                Creating grupo <br>
+                immunity
+            </p>
+            <p class="desc">
+                COVID-19 vaccination is also<br>
+                beneficial for creating group <br>
+                immunity or herd immunity
+            </p>
+        </section>
+    </div> <br>
+    <!--Tercera sección-->
+    <div class="tercera">
+        <section>
+    <img src="./img/mujer2.png" alt="cubrebocas" width="500px">
+        </section>
+        <section>
+            <p class="chico">
+                Preparations Before Vaccine
+            </p>
+            <p class="subtxt">
+                the success of vaccines is strongly influenced by the <br>
+                strength of the body's immune system. Therefore, the are <br>
+                several things that can be tried to make the COVID-19 <br>
+                vaccine work:
+            </p>
+            <p class="txtDesplegable" >
+                <img class="izq" src="https://tse4.mm.bing.net/th?id=OIP.3ZD8x2BELmKG0NOVLJeyZgAAAA&pid=Api" alt="escudo2">
+                Avoid alcoholic beverages
+                <img onclick="alcohol()" align="right" class="der" src="https://tse3.mm.bing.net/th?id=OIP.lMZoonUjxb8k8r8Vo2gBHAAAAA&pid=Api" alt="mas" width="14px">
+            </p>
+            <p class="desplega" id="alcohol" style="display:none">
+                El consumo de alcoholes destilados y drogas tiene un efecto <br>
+                inmunosupresor, con unos mecanismos muy parecidos a los que se <br>
+                producen en situación de depresión o estrés.
+            </p>
+            <p class="txtDesplegable">
+                <img class="izq" src="https://tse4.mm.bing.net/th?id=OIP.Eq_nJ723H5XzEHMEXLVCrwHaHa&pid=Api" alt="avoid" >
+                Avoid stress
+                <img onclick="stress()" align="right"  class="der" src="https://tse3.mm.bing.net/th?id=OIP.lMZoonUjxb8k8r8Vo2gBHAAAAA&pid=Api" alt="mas" width="14px">
+            </p>
+            <p  class="desplega" id="stress" style="display:none">
+                Stress has a profound effect on immune work. <br>
+                Moreover, prolonged stress can increase cortisol <br>
+                production and oxidative stress in the body.
+            </p>
+            <p class="txtDesplegable">
+                <img class="izq" src="https://tse1.mm.bing.net/th?id=OIP._czp7rnL8ylh47-6nrGUWgHaHa&pid=Api" alt="food">
+                Eat healthy food
+                <img onclick="food()" align="right"  class="der" src="https://tse3.mm.bing.net/th?id=OIP.lMZoonUjxb8k8r8Vo2gBHAAAAA&pid=Api" alt="mas" width="14px">
+            </p>
+            <p class="desplega" id="food" style="display:none">
+                Expertos de la UNAM recomiendan consumir: frutas, verduras, granos, <br>
+                egumbres, nueces y semillas oleaginosas; <br>
+                complementar con el cosumo de huevo, leche, carne o pescado.
+            </p>
+            <p class="txtDesplegable">
+                <img class="izq" src="https://tse1.mm.bing.net/th?id=OIP.bPEtT5qCh5grKjvkrx46sAHaHa&pid=Api" alt="ok">
+                Get enought sleep
+                <img onclick="sleep()" align="right" class="der" src="https://tse3.mm.bing.net/th?id=OIP.lMZoonUjxb8k8r8Vo2gBHAAAAA&pid=Api" alt="mas" width="14px">
+            </p>
+            <p class="desplega" id="sleep" style="display:none">
+                Especialista en medicina del sueño afirmó que existen estudios en <br>
+                los que se ha demostrado que cuando se duerme bien <br>
+                podemos generar mejor número de anticuerpos.
+            </p>
+            <p class="txtDesplegable">
+                <img class="izq" src="https://tse3.mm.bing.net/th?id=OIP.TmkZYenvDUyE2Xc7w79TMgHaHa&pid=Api" alt="corazon">
+                Exercise or physical activity
+                <img onclick="excer()" align="right" class="der" src="https://tse3.mm.bing.net/th?id=OIP.lMZoonUjxb8k8r8Vo2gBHAAAAA&pid=Api" alt="mas" width="14px">
+            </p>
+            <p class="desplega" id="excer" style="display:none">
+                Realizar algún ejercicio después de recibir la dosis <br>
+                de la vacuna contra COVID-19 <br>
+                puede ayudar a aumentar el efecto de los biológicos.
+            </p>
+        </section>
+    </div> <br><br><br>
+    <div class="cuatro">
+        <div >
+            <p class="chico">Emergency Contact </p>
+            <p class="subtxt">
+                Contact one of the contacts below if you or your family feel <br>
+                unwell and have similar symptoms such as COVID-19, make <br>
+                sure you also take care of yourself before reporting to us:
+            </p>
+        </div>
+        <section class="centrado">
+            <section class="etique">
+                <h3>
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.rBIcYcOg1aiLOPuXD3vz2QHaGG&pid=Api" alt="phone" width="30px">
+                        Call
+                    <p class="numerito">021.123.145.14</p>
+                </h3>
+               
+                <p class="boton" >Call Now</p>
+            </section>
+            <section class="etique">
+                <h3> 
+                    <img src="https://tse1.mm.bing.net/th?id=OIP._zcQHeWUDMv3k4DtKY3ZEwHaHa&pid=Api" alt="chat" width="30px">
+                    Chat</h3>
+            <p class="numerito" >021.123.145.14</p>
+            <p class="boton" >Chat Now</p>
+            </section>
+        </section>
+            <section  class="etique">
+                <h3> 
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.sWuYfcJeLqLBDdVIOt9LIgHaHa&pid=Api" alt="Videollamada" width="30px">
+                    Video Call</h3>
+            <p class="numerito" >021.123.145.14</p>
+            <p class="boton" >Video call Now</p>
+            </section>
+           <section  class="etique" >
+            <h3>
+                <img src="https://tse1.mm.bing.net/th?id=OIP.blBo_x7qkEg4EiBeN4XEzwHaHa&pid=Api" alt="Message" width="30px">
+                Message</h3>
+            <p class="numerito">021.123.145.14 </p>
+            <p class="boton" >Message Now</p>
+        </section>
+    </div>
+    <img class="imgder" src="./img/celular.png" alt="callus">
+<br>
+    <footer>
+        <section class="etiq2">
+            <p class="titulo2" > Vaccination</p>
+            <p class="desc">
+                Our goal is to help <br>
+                world free form the <br>
+                ongoing pandemic
+            </p>
+        </section>
+        <section class="etiq">
+            <h2 class="titulo2">About</h2>
+            <p class="txt">About</p>
+            <p class="txt" >Features</p>
+            <p class="txt">News & Blog</p>
+        </section>
+        <section class="etiq">
+            <h2 class="titulo2">Company</h2>
+            <p class="txt">How We Work?</p>
+            <p class="txt">Capital</p>
+            <p class="txt">Securiry</p>
+        </section>
+        <section class="etiq">
+            <h2 class="titulo2">Support</h2>
+            <p class="txt">FAQs</p>
+            <p class="txt">Support Center</p>
+            <p class="txt">Contact Us</p>
+        </section>
+    </footer>
+    <section class="fin">
+        <p class="ult1">@2021 Vacinnation. All rigths reserved</p>
+        <p class="ult">  Terms & Agreements Privacy Policy</p>
+        <br><br><br>
+    </section>
+    <br><br>
+</body>
+</html>
